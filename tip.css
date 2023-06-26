@@ -1,0 +1,44 @@
+
+body{
+background-color: rgb(164, 141, 218);
+}
+.wrapper{
+    height: 500px;
+    width: 250px;
+    padding: 2rem;
+    color:beige;
+    background-color:#5e0cac ;
+    margin: 100px auto;
+    border-radius:1rem;
+    border-width: 2px;
+    box-shadow: 5px 5px rgb(39, 7, 49);
+    
+}
+#top-container{
+    margin-top: 3rem;
+}
+.container{
+    margin-top: 3rem;
+}
+#title{
+    font-size: larger;
+    font-weight: bolder;
+    margin-bottom: 0.6rem;
+}
+#billtotal{
+    border-radius: 8px;
+    
+}
+#tipinput{ border-radius: 8px;}
+#input-container{
+    
+    display: flex;
+    align-items: center;
+    border-radius: 1.4rem;
+
+}
+#title2{
+    margin-top: 2rem;
+    font-size: larger;
+    font-weight: bolder;
+}

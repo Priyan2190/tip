@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIP CALCULATOR</title>
+    <link rel="stylesheet" href="tip.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container" id="top-container">
+            <div id="title">TOTAL BILL AMOUNT</div>
+            <div id="input-container">
+                <span>Rs.</span>
+                <input type="text" id="billtotal" placeholder="100" onkeyup="calculateBill()">
+            </div>
+
+        </div>
+        <div class="container">
+            <div id="title">TIP</div>
+            <div id="input-container"> <span>%</span>
+                <input type="text" id="tipin" placeholder="10"  onkeyup="calculateBill()" >
+
+            </div>
+        </div>
+        <div class="container" id="btnsplit">
+            <div id="title">How many people</div>
+            <span id="btn-container">
+                <button id="btn1" onclick="increasePeople()">
+                    <span id="btntext">+</span>
+                </button>
+            </span>
+            <span id="numberofpeople">2 </span>
+            <span id="btn-container">
+                <button id="btn1" onclick="decreasePeople()">
+                    <span id="btntext">-</span>
+                </button>
+            </span>
+
+
+        </div>
+        <div class="Container">
+            <div id="title2">Total per Person</div>
+            <div class="total" id="perPersonTotal">Rs.0</div>
+        </div>
+        <script src="tip.js"></script>
+    </div>
+
+
+
+</body>
+
+</html>
